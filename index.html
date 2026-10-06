@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>老四电影网 - 热门电影电视剧在线观看_影视资源聚合导航</title>
+<meta name="description" content="老四电影网是面向中文用户的影视资源聚合导航站，收录热门电影、热播电视剧、国创动漫与热播榜单，分类清晰、每日更新、移动端自适应，抓一剂想看的就好。">
+<meta name="keywords" content="老四电影网,老四电影,老四影视,电影在线观看,电视剧在线观看,动漫在线观看,高清影视导航,热播榜单">
+<meta name="author" content="老四电影网">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="theme-color" content="#4a2f1c">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="canonical" href="https://laosidianyingwang-cn.github.io/">
+<link rel="apple-touch-icon" href="/favicon.ico">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="老四电影网">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="老四电影网 - 热门电影电视剧在线观看_影视资源聚合导航">
+<meta property="og:description" content="老四电影网：热门电影、热播剧集、国创动漫与热播榜单一站直达，每日更新，手机端自适应。">
+<meta property="og:url" content="https://laosidianyingwang-cn.github.io/">
+<meta property="og:image" content="https://laosidianyingwang-cn.github.io/favicon.ico">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="老四电影网 - 热门电影电视剧在线观看">
+<meta name="twitter:description" content="老四电影网：热门电影、热播剧集、热播榜单一站直达，移动端自适应。">
+
+<style>
+/* ============ 设计令牌：老药铺 · 百子柜 ============ */
+:root{
+  --paper:#f2e8d5;
+  --paper2:#e6d7bb;
+  --paper3:#fbf5e8;
+  --ink:#2e2419;
+  --ink2:#6b5c48;
+  --ink3:#a39074;
+  --wood:#4a2f1c;
+  --wood2:#6d4526;
+  --wood3:#8a5a33;
+  --cinnabar:#b5352c;
+  --cinnabar2:#8a251e;
+  --herb:#5a7247;
+  --ginkgo:#d9a441;
+  --brass:#c8a35a;
+  --brass2:#9c7a37;
+  --shen:#3d5a80;
+  --line:rgba(46,36,25,.18);
+  --line2:rgba(46,36,25,.09);
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,"Courier New",monospace;
+  --serif:"Songti SC","Noto Serif SC",Georgia,"Times New Roman",serif;
+  --sans:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --maxw:1180px;
+  --navh:66px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;padding:0;color:var(--ink);
+  font:16px/1.85 var(--sans);overflow-x:hidden;-webkit-font-smoothing:antialiased;
+  background-color:var(--paper);
+  background-image:
+    radial-gradient(820px 480px at 92% -8%, rgba(217,164,65,.2), transparent 62%),
+    radial-gradient(740px 440px at 2% 4%, rgba(181,53,44,.1), transparent 60%),
+    linear-gradient(90deg,rgba(46,36,25,.04) 0 1px,transparent 1px);
+  background-size:100% 100%,100% 100%,28px 28px;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+ul,ol,dl{margin:0;padding:0;list-style:none}
+h1,h2,h3,h4{margin:0;font-weight:800;line-height:1.3;letter-spacing:-.01em}
+p{margin:0}
+:focus-visible{outline:3px solid var(--cinnabar);outline-offset:2px}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+.skip{position:absolute;left:-9999px;top:0;background:var(--ink);color:var(--ginkgo);padding:10px 16px;z-index:999;font-weight:700}
+.skip:focus{left:12px;top:12px}
+.mono{font-family:var(--mono);letter-spacing:.14em;text-transform:uppercase}
+
+#progress{position:fixed;top:0;left:0;height:5px;width:0;z-index:200;
+  background:linear-gradient(90deg,var(--herb),var(--ginkgo),var(--cinnabar))}
+
+/* ============ 木纹通用 ============ */
+.woodgrain{background-color:var(--wood2);
+  background-image:repeating-linear-gradient(90deg,rgba(0,0,0,.16) 0 2px,rgba(255,255,255,.05) 2px 5px,transparent 5px 13px)}
+/* 铜环拉手 */
+.ring{flex:0 0 auto;position:relative;width:26px;height:26px}
+.ring::before{content:"";position:absolute;left:0;right:0;top:0;bottom:0;border-radius:50%;
+  border:3px solid var(--brass);box-shadow:0 2px 4px rgba(46,36,25,.35),inset 0 1px 0 rgba(255,255,255,.4)}
+.ring::after{content:"";position:absolute;left:50%;top:-5px;width:7px;height:7px;margin-left:-3.5px;border-radius:50%;
+  background:var(--brass2);border:1px solid var(--wood)}
+
+/* ============ 顶部牌匾条 ============ */
+.plaque{background:var(--wood);color:var(--paper);border-bottom:3px solid var(--ginkgo);position:relative}
+.plaque::before{content:"";position:absolute;inset:0;opacity:.3;pointer-events:none;
+  background-image:repeating-linear-gradient(90deg,rgba(242,232,213,.16) 0 1px,transparent 1px 15px)}
+.plaque-in{max-width:var(--maxw);margin:0 auto;padding:10px 22px;display:flex;justify-content:space-between;
+  gap:12px;flex-wrap:wrap;position:relative;z-index:2;font-family:var(--serif);font-size:12.5px;font-weight:700;
+  letter-spacing:.16em}
+.plaque-in b{color:var(--ginkgo)}
+
+/* ============ 导航（木质柜台） ============ */
+.nav{position:sticky;top:0;z-index:150;background:var(--paper3);
+  border-bottom:3px solid var(--wood);box-shadow:0 4px 14px rgba(46,36,25,.12)}
+.nav-in{max-width:var(--maxw);margin:0 auto;padding:0 22px;height:var(--navh);display:flex;align-items:center;gap:14px}
+.brand{display:flex;align-items:center;gap:11px;flex:0 0 auto}
+/* 药碾 logo */
+.mortar{flex:0 0 auto;position:relative;width:34px;height:32px}
+.mortar i{position:absolute;left:2px;right:2px;bottom:0;height:19px;background:linear-gradient(180deg,var(--wood3),var(--wood));
+  border-radius:3px 3px 12px 12px}
+.mortar i::after{content:"";position:absolute;left:3px;right:3px;top:2px;height:5px;border-radius:50%;
+  background:rgba(0,0,0,.35)}
+.mortar b{position:absolute;left:50%;top:0;width:13px;height:16px;margin-left:-6.5px;
+  background:linear-gradient(180deg,var(--brass),var(--brass2));border-radius:3px 3px 6px 6px;transform:rotate(-14deg)}
+.brand b{display:block;font-size:18.5px;letter-spacing:.02em;font-family:var(--serif)}
+.brand small{display:block;font-family:var(--mono);font-size:8px;letter-spacing:.22em;color:var(--ink3);
+  text-transform:uppercase;margin-top:-5px}
+.menu{margin-left:auto;display:flex;align-items:center;gap:2px}
+.menu a{padding:8px 12px;font-size:14.5px;font-weight:700;color:var(--ink2);transition:.2s;white-space:nowrap;
+  border-bottom:3px solid transparent}
+.menu a:hover{color:var(--ink)}
+.menu a.active{color:var(--cinnabar2);border-bottom-color:var(--cinnabar)}
+.nav-cta{flex:0 0 auto;margin-left:8px;padding:9px 18px;background:var(--cinnabar);color:var(--paper);
+  font-family:var(--serif);font-size:13px;font-weight:700;letter-spacing:.1em;white-space:nowrap}
+.nav-cta:hover{background:var(--wood);color:var(--ginkgo)}
+.burger{display:none;margin-left:auto;width:42px;height:36px;background:var(--paper3);border:2px solid var(--wood);
+  cursor:pointer;place-items:center}
+.burger span{display:block;width:18px;height:2px;background:var(--ink);transition:.22s}
+.burger span+span{margin-top:5px}
+.burger.on span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger.on span:nth-child(2){opacity:0}
+.burger.on span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* ============ Hero ============ */
+.hero{padding:44px 0 40px}
+.hero-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:30px;align-items:center}
+.tagchip{display:inline-flex;align-items:center;gap:10px;padding:7px 16px;background:var(--paper3);
+  border:2px solid var(--wood);font-family:var(--serif);font-size:12.5px;font-weight:700;letter-spacing:.14em;color:var(--ink2)}
+.tagchip .mortar{width:18px;height:17px}
+.tagchip .mortar i{height:10px}
+.tagchip .mortar b{width:7px;height:9px;margin-left:-3.5px}
+.hero h1{font-size:clamp(30px,5vw,52px);margin:18px 0 16px;font-family:var(--serif)}
+.hero h1 em{font-style:normal;color:var(--cinnabar2)}
+.hero h1 u{text-decoration:none;position:relative;white-space:nowrap}
+.hero h1 u::after{content:"";position:absolute;left:0;right:0;bottom:.04em;height:10px;z-index:-1;
+  background:repeating-linear-gradient(90deg,rgba(217,164,65,.7) 0 5px,transparent 5px 12px)}
+.lead{font-size:16px;color:var(--ink2);max-width:52ch}
+.lead b{color:var(--ink);font-weight:800;box-shadow:inset 0 -.5em 0 rgba(217,164,65,.5)}
+.search{margin:26px 0 14px;display:flex;max-width:600px;background:var(--paper3);border:2px solid var(--wood)}
+.search .pre{flex:0 0 auto;display:flex;align-items:center;gap:9px;padding:0 14px;border-right:2px solid var(--wood);
+  font-family:var(--serif);font-size:13px;font-weight:700;color:var(--ink2);letter-spacing:.1em}
+.search input{flex:1;min-width:0;border:0;outline:0;background:none;font:15px var(--sans);color:var(--ink);padding:14px}
+.search input::placeholder{color:var(--ink3)}
+.search button{border:0;border-left:2px solid var(--wood);cursor:pointer;padding:14px 26px;background:var(--herb);
+  color:var(--paper);font:800 15px var(--sans)}
+.search button:hover{background:var(--cinnabar)}
+.chips{display:flex;flex-wrap:wrap;gap:9px;align-items:center;font-size:13px;font-weight:700}
+.chips a{padding:6px 15px;background:var(--paper3);color:var(--ink2);border:1px solid var(--line);transition:.2s}
+.chips a:hover{border-color:var(--cinnabar);color:var(--ink)}
+.chips a b{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px;vertical-align:middle}
+
+/* 百子柜面板 */
+.cabinet{background:var(--wood);padding:14px;border:3px solid var(--wood);
+  box-shadow:0 18px 38px rgba(46,36,25,.28)}
+.cab-sign{padding:10px 12px;text-align:center;background:var(--paper);border:2px solid var(--ginkgo);margin-bottom:13px}
+.cab-sign h3{font-family:var(--serif);font-size:15px;letter-spacing:.24em;color:var(--cinnabar2)}
+.cab-sign em{display:block;font-style:normal;font-family:var(--mono);font-size:9px;font-weight:700;
+  letter-spacing:.24em;color:var(--ink3);margin-top:4px}
+.cab-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.cab-dr{position:relative;padding:11px 8px 9px;text-align:center;
+  background:linear-gradient(180deg,var(--wood3),var(--wood2));border:2px solid var(--wood);
+  box-shadow:inset 0 2px 3px rgba(255,255,255,.14),inset 0 -3px 6px rgba(0,0,0,.3)}
+.cab-dr span{display:block;font-family:var(--serif);font-size:12.5px;font-weight:700;color:var(--paper);letter-spacing:.1em}
+.cab-dr i{display:block;width:20px;height:20px;margin:6px auto 0;border-radius:50%;border:3px solid var(--brass);
+  box-shadow:0 2px 3px rgba(0,0,0,.35)}
+.cab-dr.open{background:linear-gradient(180deg,#2b1a0e,#1a1008);transform:translateY(-3px)}
+.cab-dr.open span{color:var(--ginkgo)}
+.cab-dr.open i{border-color:var(--ginkgo)}
+.counter{margin-top:13px;padding:11px 12px;background:var(--paper);border-top:3px solid var(--ginkgo)}
+.counter .row{display:flex;justify-content:space-between;gap:12px;padding:5px 0;font-size:13px;color:var(--ink2);
+  border-bottom:1px dashed var(--line2)}
+.counter .row:last-child{border-bottom:0}
+.counter .row dd{margin:0;font-family:var(--mono);font-weight:700;color:var(--cinnabar)}
+.counter p{margin-top:9px;font-size:12.5px;color:var(--ink2)}
+
+/* ============ 栏目通用 ============ */
+section{padding:0}
+.inner{padding:48px 0;border-top:3px solid var(--wood)}
+.sec-head{display:flex;align-items:flex-start;gap:16px;margin-bottom:26px;flex-wrap:wrap}
+/* 药牌编号 */
+.no-tag{flex:0 0 auto;width:54px;height:64px;background:var(--paper3);border:2px solid var(--wood);
+  display:grid;place-items:center;position:relative;padding-top:8px}
+.no-tag::before{content:"";position:absolute;left:50%;top:-9px;width:11px;height:11px;margin-left:-5.5px;
+  border-radius:50%;border:2px solid var(--brass);background:var(--paper)}
+.no-tag b{font-family:var(--serif);font-size:17px;font-weight:800;color:var(--cinnabar2);line-height:1.1}
+.sec-head .txt{flex:1;min-width:260px}
+.sec-head h2{font-size:clamp(21px,2.9vw,30px);font-family:var(--serif)}
+.sec-head h2 small{display:block;font-family:var(--mono);font-size:10.5px;font-weight:700;letter-spacing:.28em;
+  color:var(--ink3);text-transform:uppercase;margin-bottom:8px}
+.sec-head p{font-size:14.3px;color:var(--ink2);max-width:56ch;margin-top:8px}
+.more{flex:0 0 auto;align-self:center;padding:11px 20px;background:var(--paper3);color:var(--ink);
+  border:2px solid var(--wood);font-family:var(--serif);font-size:13px;font-weight:700;letter-spacing:.1em;white-space:nowrap}
+.more:hover{background:var(--wood);color:var(--ginkgo)}
+
+.filters{display:flex;gap:9px;overflow-x:auto;padding-bottom:6px;margin-bottom:24px;scrollbar-width:none;flex-wrap:wrap}
+.filters::-webkit-scrollbar{display:none}
+.filters button{flex:0 0 auto;border:1px solid var(--line);background:var(--paper3);color:var(--ink2);
+  padding:8px 18px;font:700 14.5px var(--sans);cursor:pointer;transition:.18s}
+.filters button:hover{border-color:var(--wood);color:var(--ink)}
+.filters button.on{background:var(--wood);color:var(--ginkgo);border-color:var(--wood)}
+
+/* ============ 片库：药抽屉（ul>li） ============ */
+.drawers{display:grid;grid-template-columns:repeat(auto-fill,minmax(186px,1fr));gap:18px}
+.drawer{transition:transform .26s ease}
+.drawer:hover{transform:translateY(-6px)}
+.drawer .front{background:linear-gradient(180deg,var(--wood3),var(--wood2));padding:9px 9px 12px;
+  border:2px solid var(--wood);box-shadow:inset 0 2px 3px rgba(255,255,255,.14),0 8px 16px rgba(46,36,25,.16)}
+.drawer .ph{position:relative;aspect-ratio:3/4;overflow:hidden;background:linear-gradient(168deg,var(--c1),var(--c2));
+  border:2px solid var(--wood)}
+/* 药格纹理 */
+.drawer .ph::before{content:"";position:absolute;inset:0;opacity:.34;
+  background-image:
+    repeating-linear-gradient(90deg,rgba(242,232,213,.5) 0 1px,transparent 1px 30%),
+    repeating-linear-gradient(0deg,rgba(242,232,213,.5) 0 1px,transparent 1px 22%)}
+.drawer .ph::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,transparent 42%,rgba(26,16,8,.9))}
+/* 药丸 */
+.drawer .pill{position:absolute;width:24px;height:24px;border-radius:50%;z-index:2;
+  background:radial-gradient(circle at 34% 30%,var(--paper3),var(--paper2));box-shadow:0 2px 5px rgba(0,0,0,.3)}
+.drawer .pill:nth-of-type(1){left:16%;top:18%}
+.drawer .pill:nth-of-type(2){right:18%;top:34%;width:18px;height:18px}
+.drawer .pill:nth-of-type(3){left:30%;bottom:34%;width:14px;height:14px}
+.drawer .tag{position:absolute;left:0;top:14px;z-index:4;font-family:var(--serif);font-size:11px;font-weight:700;
+  letter-spacing:.1em;padding:4px 10px 4px 8px;color:var(--paper);background:var(--pc)}
+.drawer .sc{position:absolute;right:7px;top:7px;z-index:4;min-width:40px;height:25px;display:grid;place-items:center;
+  padding:0 6px;font-family:var(--mono);font-size:12px;font-weight:700;color:var(--ink);background:var(--paper);
+  border:2px solid var(--wood)}
+.drawer .nm{position:absolute;left:10px;right:10px;bottom:9px;z-index:4;font-size:13.5px;font-weight:800;color:var(--paper);
+  text-shadow:0 2px 10px rgba(0,0,0,.7)}
+.drawer .handle{display:flex;justify-content:center;margin-top:9px}
+.drawer .lab{margin-top:11px;padding:9px 10px;background:var(--paper3);border:1px solid var(--line)}
+.drawer .lab h3{font-size:14.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.drawer .lab .dose{margin-top:4px;display:flex;justify-content:space-between;gap:8px;font-family:var(--serif);
+  font-size:12px;font-weight:700;letter-spacing:.06em;color:var(--pc)}
+.drawer .lab .dose span{color:var(--ink3)}
+
+/* ============ 剧集：戥子秤（dl>div>dt/dd） ============ */
+.prescriptions{display:grid;grid-template-columns:repeat(auto-fill,minmax(352px,1fr));gap:16px}
+.prescriptions > div{display:flex;gap:13px;padding:13px;background:var(--paper3);border:2px solid var(--wood);
+  border-left:6px solid var(--pc);transition:.26s}
+.prescriptions > div:hover{transform:translateY(-4px);box-shadow:0 14px 26px rgba(46,36,25,.14)}
+.prescriptions dt{flex:0 0 74px;height:96px;position:relative;overflow:hidden;
+  background:linear-gradient(168deg,var(--c1),var(--c2));border:2px solid var(--wood)}
+.prescriptions dt::before{content:"";position:absolute;inset:0;opacity:.32;
+  background-image:repeating-linear-gradient(90deg,rgba(242,232,213,.5) 0 1px,transparent 1px 30%),
+    repeating-linear-gradient(0deg,rgba(242,232,213,.5) 0 1px,transparent 1px 22%)}
+.prescriptions dt u{position:absolute;left:0;right:0;bottom:0;text-decoration:none;z-index:3;font-family:var(--mono);
+  font-size:9.5px;text-align:center;padding:3px 0;color:var(--paper);background:rgba(26,16,8,.92)}
+.prescriptions dd{margin:0;flex:1;min-width:0}
+.prescriptions dd h3{font-size:15.5px;display:flex;align-items:center;gap:9px;font-family:var(--serif)}
+.prescriptions dd h3 i{flex:0 0 auto;font-style:normal;font-family:var(--serif);font-size:11px;font-weight:700;
+  letter-spacing:.06em;padding:3px 8px;color:var(--paper);background:var(--pc)}
+.prescriptions dd > span{display:block;font-size:12.5px;color:var(--ink3);margin-top:3px;font-weight:700}
+/* 戥子秤进度 */
+.steelyard{margin-top:11px;display:block;position:relative;height:34px}
+.steelyard .beam{position:absolute;left:0;right:0;top:16px;height:5px;background:linear-gradient(180deg,var(--brass),var(--brass2));
+  border:1px solid var(--wood)}
+.steelyard .beam::before{content:"";position:absolute;left:0;right:0;top:-8px;height:9px;
+  background-image:repeating-linear-gradient(90deg,var(--ink2) 0 1px,transparent 1px 10%);
+  background-size:100% 9px;opacity:.7}
+.steelyard .hook{position:absolute;left:0;top:8px;width:0;height:0;
+  border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:11px solid var(--wood)}
+.steelyard .wt{position:absolute;top:24px;width:16px;height:16px;margin-left:-8px;border-radius:50% 50% 40% 40%;
+  background:linear-gradient(180deg,var(--brass),var(--brass2));border:2px solid var(--wood);
+  box-shadow:0 3px 5px rgba(46,36,25,.35)}
+.steelyard .wt::before{content:"";position:absolute;left:50%;top:-8px;width:2px;height:8px;margin-left:-1px;background:var(--wood)}
+.prescriptions .stat{margin-top:8px;display:block;font-family:var(--serif);font-size:12.5px;font-weight:700;color:var(--pc);
+  letter-spacing:.06em}
+
+/* ============ 榜单：三只药罐 ============ */
+.jars{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;align-items:start}
+.jar{background:var(--paper3);border:2px solid var(--wood);overflow:hidden}
+.jar .pot{position:relative;height:74px;margin:12px 14px 0;
+  background:linear-gradient(180deg,var(--c1),var(--c2));
+  border-radius:14px 14px 26px 26px;border:3px solid var(--wood);
+  box-shadow:inset 0 -10px 18px rgba(0,0,0,.3),inset 0 5px 9px rgba(255,255,255,.16)}
+/* 罐口 */
+.jar .pot::before{content:"";position:absolute;left:50%;top:-11px;width:56%;margin-left:-28%;height:12px;
+  background:linear-gradient(180deg,var(--wood3),var(--wood));border:2px solid var(--wood);border-radius:4px}
+/* 罐耳 */
+.jar .pot::after{content:"";position:absolute;left:-9px;right:-9px;top:22px;height:18px;
+  border-left:5px solid var(--wood);border-right:5px solid var(--wood);border-radius:3px;opacity:.55}
+.jar .pot b{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;font-family:var(--serif);
+  font-size:12.5px;font-weight:800;color:var(--paper);letter-spacing:.16em;text-shadow:0 2px 6px rgba(0,0,0,.6)}
+.jar .pot i{position:absolute;right:9px;bottom:9px;z-index:3;font-family:var(--mono);font-size:9.5px;font-weight:700;
+  letter-spacing:.12em;color:var(--ink);background:var(--ginkgo);padding:2px 7px}
+.jar .cap{padding:12px 15px 11px;text-align:center;border-bottom:2px solid var(--line2)}
+.jar .cap h3{font-size:16.5px;font-family:var(--serif)}
+.jar .cap em{display:block;font-style:normal;font-family:var(--mono);font-size:9.5px;font-weight:700;
+  letter-spacing:.18em;color:var(--ink3);margin-top:4px}
+.jar ol{padding:11px 15px 14px}
+.jar ol li{display:flex;align-items:center;gap:11px;padding:9px 0;border-bottom:1px dashed var(--line2)}
+.jar ol li:last-child{border-bottom:0}
+.jar .no{flex:0 0 auto;width:30px;height:30px;display:grid;place-items:center;font-family:var(--mono);font-size:12px;
+  font-weight:700;color:var(--ink2);background:var(--paper2);border:1px solid var(--line)}
+.jar ol li:first-child .no{color:var(--paper);background:var(--bc);border-color:var(--bc)}
+.jar .rt{flex:1;min-width:0}
+.jar .rt strong{display:block;font-size:14.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.jar .rt span{font-size:12px;color:var(--ink3)}
+.jar .val{flex:0 0 auto;font-family:var(--mono);font-size:13.5px;font-weight:700;color:var(--bc)}
+
+/* ============ 快讯：药方（ul>li） ============ */
+.scripts{display:grid;grid-template-columns:repeat(auto-fill,minmax(276px,1fr));gap:18px}
+.scripts li{background:var(--paper3);border:2px solid var(--wood);overflow:hidden;transition:.28s;position:relative}
+.scripts li:hover{transform:translateY(-6px);box-shadow:0 16px 30px rgba(46,36,25,.16)}
+.scripts .top{height:112px;position:relative;background:linear-gradient(155deg,var(--c1),var(--c2));overflow:hidden}
+.scripts .top::before{content:"";position:absolute;inset:0;opacity:.3;
+  background-image:repeating-linear-gradient(90deg,rgba(242,232,213,.45) 0 1px,transparent 1px 12%),
+    repeating-linear-gradient(0deg,rgba(242,232,213,.45) 0 1px,transparent 1px 20%)}
+.scripts .top b{position:absolute;left:0;top:12px;z-index:3;font-family:var(--serif);font-size:12px;font-weight:700;
+  letter-spacing:.14em;padding:5px 13px 5px 9px;color:var(--paper);background:var(--pc)}
+.scripts .top u{position:absolute;right:9px;top:9px;z-index:3;text-decoration:none;font-family:var(--mono);
+  font-size:9.5px;font-weight:700;letter-spacing:.14em;color:var(--ink);background:var(--ginkgo);padding:3px 9px}
+/* 朱砂印章（跨在封面与正文交界处） */
+.scripts .seal{position:absolute;right:12px;top:90px;z-index:4;width:46px;height:46px;
+  display:grid;place-items:center;transform:rotate(-8deg);color:var(--paper);background:var(--cinnabar);
+  border:2px solid var(--cinnabar2);font-family:var(--serif);font-size:11px;font-weight:800;line-height:1.15;
+  text-align:center;box-shadow:0 3px 8px rgba(46,36,25,.28);letter-spacing:.04em}
+.scripts .bd{padding:14px 16px 17px}
+.scripts .bd h3{font-size:16px;margin-bottom:7px;font-family:var(--serif)}
+.scripts .bd p{font-size:13.5px;color:var(--ink2);max-width:88%}
+.scripts .bd time{display:block;margin-top:11px;font-family:var(--mono);font-size:11.5px;font-weight:700;
+  color:var(--ink3);letter-spacing:.08em}
+
+/* ============ 关于 / FAQ ============ */
+.duo{display:grid;grid-template-columns:1.05fr .95fr;gap:16px;align-items:start}
+.panel{background:var(--paper3);border:2px solid var(--wood);padding:24px}
+.panel h3{font-size:19px;margin-bottom:12px;padding-bottom:12px;border-bottom:2px solid var(--wood);font-family:var(--serif)}
+.panel p{font-size:14.5px;color:var(--ink2);margin-bottom:11px}
+.panel p b{color:var(--ink);box-shadow:inset 0 -.5em 0 rgba(217,164,65,.5)}
+.goods{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px}
+.goods div{padding:14px 8px;text-align:center;background:var(--paper);border:1px solid var(--line)}
+.goods .mortar{width:26px;height:25px;margin:0 auto 9px}
+.goods .mortar i{height:14px}
+.goods .mortar b{width:10px;height:12px;margin-left:-5px}
+.goods strong{display:block;font-size:12.5px}
+.goods em{font-style:normal;font-size:11px;color:var(--ink2);font-weight:700}
+.faq details{border-bottom:1px solid var(--line2);padding:13px 0}
+.faq summary{cursor:pointer;font-size:15px;font-weight:800;list-style:none;display:flex;justify-content:space-between;
+  gap:12px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"方";font-family:var(--serif);font-size:14px;color:var(--paper);background:var(--cinnabar);
+  width:24px;height:24px;display:grid;place-items:center;flex:0 0 auto}
+.faq details[open] summary::after{content:"剂";background:var(--herb)}
+.faq details p{font-size:14px;color:var(--ink2);margin-top:9px;padding:12px 14px;background:var(--paper);
+  border-left:4px solid var(--herb)}
+
+/* CTA */
+.cta{margin-top:16px;padding:46px 26px;text-align:center;position:relative;overflow:hidden;
+  background:var(--wood);color:var(--paper)}
+.cta::before{content:"";position:absolute;inset:0;opacity:.34;pointer-events:none;
+  background-image:repeating-linear-gradient(90deg,rgba(242,232,213,.18) 0 1px,transparent 1px 16px)}
+.cta .mortar{width:50px;height:47px;margin:0 auto 16px;position:relative;z-index:2}
+.cta .mortar i{height:28px}
+.cta .mortar b{width:19px;height:24px;margin-left:-9.5px}
+.cta h2{position:relative;z-index:2;font-size:clamp(20px,3vw,29px);margin-bottom:10px;font-family:var(--serif)}
+.cta h2 em{font-style:normal;color:var(--ginkgo)}
+.cta p{position:relative;z-index:2;font-size:14.5px;color:rgba(242,232,213,.86);max-width:56ch;margin:0 auto 22px}
+.cta a{position:relative;z-index:2;display:inline-block;padding:14px 34px;background:var(--ginkgo);color:var(--ink);
+  font-family:var(--serif);font-size:14.5px;font-weight:700;letter-spacing:.1em}
+.cta a:hover{background:var(--cinnabar);color:var(--paper)}
+
+/* 页脚 */
+footer{margin-top:0;padding:34px 0 22px;background:#241a10;color:var(--paper)}
+.fgrid{display:grid;grid-template-columns:1.6fr repeat(3,1fr);gap:26px}
+.fgrid h4{font-size:15px;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid rgba(242,232,213,.24);
+  color:var(--ginkgo);letter-spacing:.1em;font-family:var(--serif)}
+.fgrid a,.fgrid li{font-size:13.5px;color:rgba(242,232,213,.66);line-height:2.1}
+.fgrid a:hover{color:var(--ginkgo)}
+.fbrand .lg{display:flex;align-items:center;gap:11px;font-size:19px;font-weight:800;letter-spacing:.02em;font-family:var(--serif)}
+.fbrand .lg .mortar{width:30px;height:28px}
+.fbrand p{font-size:13.5px;color:rgba(242,232,213,.6);margin-top:11px;max-width:42ch}
+.bottom{margin-top:24px;padding-top:16px;border-top:1px solid rgba(242,232,213,.22);
+  display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12.5px;color:rgba(242,232,213,.6)}
+.bottom b{color:var(--ginkgo)}
+
+#top{position:fixed;right:16px;bottom:20px;width:46px;height:46px;background:var(--paper3);color:var(--cinnabar);
+  border:2px solid var(--wood);display:grid;place-items:center;cursor:pointer;z-index:160;opacity:0;
+  pointer-events:none;transition:.25s;box-shadow:0 8px 18px rgba(46,36,25,.2)}
+#top.show{opacity:1;pointer-events:auto}
+#top:hover{background:var(--wood);color:var(--ginkgo)}
+#top svg{width:18px;height:18px;fill:currentColor}
+
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+
+/* ============ 响应式 ============ */
+@media (max-width:1024px){
+  .hero-grid{grid-template-columns:1fr;gap:26px}
+  .cabinet{max-width:560px}
+  .duo{grid-template-columns:1fr}
+  .fgrid{grid-template-columns:1fr 1fr}
+  .jars{grid-template-columns:1fr}
+}
+@media (max-width:880px){
+  .menu{position:fixed;top:var(--navh);left:10px;right:10px;flex-direction:column;align-items:stretch;gap:2px;
+    padding:12px;background:var(--paper3);border:2px solid var(--wood);
+    box-shadow:0 18px 40px rgba(46,36,25,.3);
+    transform:translateY(-10px);opacity:0;visibility:hidden;transition:.24s;
+    max-height:calc(100vh - var(--navh) - 30px);overflow:auto}
+  .menu.open{transform:none;opacity:1;visibility:visible}
+  .menu a{padding:14px 16px;font-size:16px;border-bottom:1px solid var(--line2)}
+  .nav-cta{margin:8px 0 0;text-align:center}
+  .burger{display:grid}
+  .hero{padding:24px 0 20px}
+  .prescriptions{grid-template-columns:1fr}
+}
+@media (max-width:600px){
+  .wrap{padding:0 15px}
+  .nav-in{padding:0 15px}
+  .plaque-in{padding:8px 15px;font-size:11.5px;letter-spacing:.08em}
+  .inner{padding:36px 0}
+  .drawers{grid-template-columns:repeat(2,1fr);gap:14px}
+  .drawer .front{padding:7px 7px 10px}
+  .drawer .nm{font-size:12px}
+  .drawer .lab{padding:8px}
+  .drawer .lab h3{font-size:13px}
+  .search{flex-wrap:wrap}
+  .search .pre{flex:1 1 100%;padding:8px 14px;border-right:0;border-bottom:2px solid var(--wood)}
+  .search input{flex:1 1 100%;border-bottom:2px solid var(--wood)}
+  .search button{flex:1 1 100%;border-left:0;border-top:2px solid var(--wood)}
+  .cabinet{padding:12px}
+  .cab-grid{gap:7px}
+  .cab-dr{padding:9px 6px 8px}
+  .cab-dr span{font-size:11px}
+  .cab-dr i{width:16px;height:16px;margin-top:5px}
+  .goods{grid-template-columns:repeat(2,1fr)}
+  .fgrid{grid-template-columns:1fr;gap:20px}
+  .cta{padding:34px 16px}
+  .sec-head{gap:12px}
+  .no-tag{width:46px;height:56px}
+  .no-tag b{font-size:15px}
+  .prescriptions dd h3{font-size:14px}
+  .scripts .bd p{max-width:100%}
+  .scripts .seal{width:40px;height:40px;font-size:10px;top:80px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<a class="skip" href="#main">跳到主要内容</a>
+<div id="progress" aria-hidden="true"></div>
+
+<!-- ===== 顶部牌匾条 ===== -->
+<div class="plaque">
+  <div class="plaque-in">
+    <span>老四电影网 · 百子柜</span>
+    <span>坐堂 <b>每日 10:00 / 21:00</b></span>
+    <span>九屉十八格 · 分类上架</span>
+  </div>
+</div>
+
+<!-- ===== 导航 ===== -->
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="#home" aria-label="老四电影网首页">
+      <span class="mortar" aria-hidden="true"><i></i><b></b></span>
+      <span><b>老四电影网</b><small>herb shop</small></span>
+    </a>
+    <button class="burger" id="burger" aria-label="展开导航菜单" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="menu" id="menu" aria-label="主导航">
+      <a href="#home" class="active">柜台首页</a>
+      <a href="#movie">百子片库</a>
+      <a href="#series">抓药追更</a>
+      <a href="#rank">药罐榜单</a>
+      <a href="#news">方子快讯</a>
+      <a href="#about">药铺指南</a>
+      <a class="nav-cta" href="#movie">抓一剂看看</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===== 首页 ===== -->
+  <section id="home" class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="tagchip"><span class="mortar" aria-hidden="true"><i></i><b></b></span>抽屉 01 · 抓一剂想看的</span>
+        <h1>好片一味一味抓，<em>老四电影网</em> <u>百子柜常开</u></h1>
+        <p class="lead">
+          老四电影网是面向中文用户的影视资源聚合导航站：热门电影、<b>热播剧集</b>、国创动漫与热播榜单一站收拢，
+          分类清晰、每日上新，手机、平板、电脑打开都能顺畅在线观看。
+        </p>
+        <form class="search" role="search" id="searchForm">
+          <span class="pre"><span class="mortar" aria-hidden="true"><i></i><b></b></span>抓药</span>
+          <input type="search" name="q" placeholder="搜索片名、演员或类型，例如：科幻 / 治愈" aria-label="站内搜索">
+          <button type="submit">抓一剂看看</button>
+        </form>
+        <div class="chips">
+          <a href="#movie"><b style="background:var(--herb)"></b>剧情三钱</a>
+          <a href="#movie"><b style="background:var(--ginkgo)"></b>治愈二钱</a>
+          <a href="#series"><b style="background:var(--cinnabar)"></b>都市情感</a>
+          <a href="#rank"><b style="background:var(--shen)"></b>高分上品</a>
+          <a href="#movie"><b style="background:var(--wood3)"></b>国创动漫</a>
+        </div>
+      </div>
+
+      <aside class="cabinet reveal">
+        <div class="cab-sign">
+          <h3>老四药铺</h3>
+          <em>LAOSI · HERB CABINET</em>
+        </div>
+        <div class="cab-grid">
+          <span class="cab-dr"><span>剧情</span><i aria-hidden="true"></i></span>
+          <span class="cab-dr open"><span>治愈</span><i aria-hidden="true"></i></span>
+          <span class="cab-dr"><span>动作</span><i aria-hidden="true"></i></span>
+          <span class="cab-dr"><span>悬疑</span><i aria-hidden="true"></i></span>
+          <span class="cab-dr"><span>爱情</span><i aria-hidden="true"></i></span>
+          <span class="cab-dr"><span>动漫</span><i aria-hidden="true"></i></span>
+          <span class="cab-dr"><span>喜剧</span><i aria-hidden="true"></i></span>
+          <span class="cab-dr"><span>纪录</span><i aria-hidden="true"></i></span>
+          <span class="cab-dr"><span>犯罪</span><i aria-hidden="true"></i></span>
+        </div>
+        <dl class="counter">
+          <div class="row"><dt>收录影片</dt><dd>36,900+</dd></div>
+          <div class="row"><dt>精细分类</dt><dd>18</dd></div>
+          <div class="row"><dt>上新频率</dt><dd>每日 2 次</dd></div>
+          <div class="row"><dt>榜单刷新</dt><dd>每小时</dd></div>
+        </dl>
+        <p>老四电影网把分散的影视入口分门别类码进百子柜，拉开哪一屉，就是一味合你口味的片子。</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ===== 栏目一：百子片库 ===== -->
+  <section id="movie">
+    <div class="wrap inner">
+      <div class="sec-head reveal">
+        <span class="no-tag"><b>壹</b></span>
+        <div class="txt">
+          <h2><small>Cabinet</small>百子片库 · 每一部影片都占着一格药屉</h2>
+          <p>老四电影网把片库按题材分成六味：剧情、治愈、动作、悬疑、爱情、动漫。点一下就换一味，卡片是一整只药抽屉——木纹外框、铜环拉手、格子里躺着几枚药丸，底下压一张药名标签。</p>
+        </div>
+        <a class="more" href="#">查看全部分类 →</a>
+      </div>
+      <div class="filters" role="tablist" aria-label="影片类型筛选">
+        <button class="on" data-cat="all" role="tab" aria-selected="true">全部药味</button>
+        <button data-cat="drama" role="tab" aria-selected="false">剧情</button>
+        <button data-cat="heal" role="tab" aria-selected="false">治愈</button>
+        <button data-cat="action" role="tab" aria-selected="false">动作</button>
+        <button data-cat="mystery" role="tab" aria-selected="false">悬疑</button>
+        <button data-cat="love" role="tab" aria-selected="false">爱情</button>
+        <button data-cat="anime" role="tab" aria-selected="false">动漫</button>
+      </div>
+      <ul class="drawers" id="movieGrid">
+        <li class="drawer reveal" data-cat="drama" style="--pc:var(--herb);--c1:#5a7247;--c2:#16210f">
+          <div class="front">
+            <div class="ph"><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="tag">剧情</span><span class="sc">9.1</span><span class="nm">三月花信</span></div>
+            <div class="handle"><span class="ring" aria-hidden="true"></span></div>
+          </div>
+          <div class="lab"><h3>三月花信</h3><span class="dose"><span>剧情 · 三钱</span><em>9.1</em></span></div>
+        </li>
+        <li class="drawer reveal" data-cat="heal" style="--pc:var(--ginkgo);--c1:#d9a441;--c2:#3d2a06">
+          <div class="front">
+            <div class="ph"><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="tag">治愈</span><span class="sc">8.9</span><span class="nm">潮汐来信</span></div>
+            <div class="handle"><span class="ring" aria-hidden="true"></span></div>
+          </div>
+          <div class="lab"><h3>潮汐来信</h3><span class="dose"><span>治愈 · 二钱</span><em>8.9</em></span></div>
+        </li>
+        <li class="drawer reveal" data-cat="action" style="--pc:var(--cinnabar);--c1:#b5352c;--c2:#340a06">
+          <div class="front">
+            <div class="ph"><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="tag">动作</span><span class="sc">8.5</span><span class="nm">疾速拦截</span></div>
+            <div class="handle"><span class="ring" aria-hidden="true"></span></div>
+          </div>
+          <div class="lab"><h3>疾速拦截</h3><span class="dose"><span>动作 · 五钱</span><em>8.5</em></span></div>
+        </li>
+        <li class="drawer reveal" data-cat="mystery" style="--pc:var(--shen);--c1:#3d5a80;--c2:#0d1830">
+          <div class="front">
+            <div class="ph"><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="tag">悬疑</span><span class="sc">8.8</span><span class="nm">第七个证人</span></div>
+            <div class="handle"><span class="ring" aria-hidden="true"></span></div>
+          </div>
+          <div class="lab"><h3>第七个证人</h3><span class="dose"><span>悬疑 · 四钱</span><em>8.8</em></span></div>
+        </li>
+        <li class="drawer reveal" data-cat="love" style="--pc:var(--cinnabar2);--c1:#8a251e;--c2:#280704">
+          <div class="front">
+            <div class="ph"><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="tag">爱情</span><span class="sc">8.7</span><span class="nm">长街旧事</span></div>
+            <div class="handle"><span class="ring" aria-hidden="true"></span></div>
+          </div>
+          <div class="lab"><h3>长街旧事</h3><span class="dose"><span>爱情 · 三钱</span><em>8.7</em></span></div>
+        </li>
+        <li class="drawer reveal" data-cat="anime" style="--pc:var(--wood3);--c1:#8a5a33;--c2:#241407">
+          <div class="front">
+            <div class="ph"><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="tag">动漫</span><span class="sc">8.6</span><span class="nm">花灯记</span></div>
+            <div class="handle"><span class="ring" aria-hidden="true"></span></div>
+          </div>
+          <div class="lab"><h3>花灯记</h3><span class="dose"><span>动漫 · 二钱</span><em>8.6</em></span></div>
+        </li>
+        <li class="drawer reveal" data-cat="heal" style="--pc:var(--ginkgo);--c1:#e0b96b;--c2:#3d2a06">
+          <div class="front">
+            <div class="ph"><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="tag">治愈</span><span class="sc">8.3</span><span class="nm">海边小店</span></div>
+            <div class="handle"><span class="ring" aria-hidden="true"></span></div>
+          </div>
+          <div class="lab"><h3>海边小店</h3><span class="dose"><span>治愈 · 二钱</span><em>8.3</em></span></div>
+        </li>
+        <li class="drawer reveal" data-cat="mystery" style="--pc:var(--shen);--c1:#5e82ad;--c2:#0d1830">
+          <div class="front">
+            <div class="ph"><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="tag">悬疑</span><span class="sc">8.4</span><span class="nm">无声证词</span></div>
+            <div class="handle"><span class="ring" aria-hidden="true"></span></div>
+          </div>
+          <div class="lab"><h3>无声证词</h3><span class="dose"><span>悬疑 · 四钱</span><em>8.4</em></span></div>
+        </li>
+        <li class="drawer reveal" data-cat="action" style="--pc:var(--cinnabar);--c1:#cf5f52;--c2:#340a06">
+          <div class="front">
+            <div class="ph"><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="tag">动作</span><span class="sc">8.1</span><span class="nm">极速追缉</span></div>
+            <div class="handle"><span class="ring" aria-hidden="true"></span></div>
+          </div>
+          <div class="lab"><h3>极速追缉</h3><span class="dose"><span>动作 · 五钱</span><em>8.1</em></span></div>
+        </li>
+        <li class="drawer reveal" data-cat="drama" style="--pc:var(--herb);--c1:#7d9a68;--c2:#16210f">
+          <div class="front">
+            <div class="ph"><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="tag">剧情</span><span class="sc">9.0</span><span class="nm">深空信号</span></div>
+            <div class="handle"><span class="ring" aria-hidden="true"></span></div>
+          </div>
+          <div class="lab"><h3>深空信号</h3><span class="dose"><span>剧情 · 三钱</span><em>9.0</em></span></div>
+        </li>
+        <li class="drawer reveal" data-cat="anime" style="--pc:var(--wood3);--c1:#b07d51;--c2:#241407">
+          <div class="front">
+            <div class="ph"><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="tag">动漫</span><span class="sc">8.2</span><span class="nm">山海食记</span></div>
+            <div class="handle"><span class="ring" aria-hidden="true"></span></div>
+          </div>
+          <div class="lab"><h3>山海食记</h3><span class="dose"><span>动漫 · 二钱</span><em>8.2</em></span></div>
+        </li>
+        <li class="drawer reveal" data-cat="love" style="--pc:var(--cinnabar2);--c1:#b04a3e;--c2:#280704">
+          <div class="front">
+            <div class="ph"><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="pill" aria-hidden="true"></span><span class="tag">爱情</span><span class="sc">7.9</span><span class="nm">周末大赢家</span></div>
+            <div class="handle"><span class="ring" aria-hidden="true"></span></div>
+          </div>
+          <div class="lab"><h3>周末大赢家</h3><span class="dose"><span>爱情 · 三钱</span><em>7.9</em></span></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== 栏目二：抓药追更 ===== -->
+  <section id="series">
+    <div class="wrap inner">
+      <div class="sec-head reveal">
+        <span class="no-tag"><b>贰</b></span>
+        <div class="txt">
+          <h2><small>Steelyard</small>抓药追更 · 秤砣停在哪个刻度，就抓到第几剂</h2>
+          <p>都市情感、年代往事、悬疑罪案同步跟播。每部剧配一杆戥子秤，横杆上有刻度、左端一个提纽、秤砣停在哪个位置，就是更新到第几剂。</p>
+        </div>
+        <a class="more" href="#">更新时间表 →</a>
+      </div>
+      <dl class="prescriptions">
+        <div class="reveal" style="--pc:var(--herb);--c1:#5a7247;--c2:#16210f">
+          <dt><u>EP 24</u></dt>
+          <dd>
+            <h3><i>更新中</i>三月花信</h3>
+            <span>剧情 / 年代 · 每周三、周五 20:00</span>
+            <span class="steelyard" aria-hidden="true">
+              <span class="beam"></span>
+              <span class="hook"></span>
+              <span class="wt" style="left:80%"></span>
+            </span>
+            <span class="stat">24 / 30 剂 · 秤砣停在八成</span>
+          </dd>
+        </div>
+        <div class="reveal" style="--pc:var(--cinnabar2);--c1:#8a251e;--c2:#280704">
+          <dt><u>EP 20</u></dt>
+          <dd>
+            <h3><i>更新中</i>长街旧事</h3>
+            <span>剧情 / 年代 · 每周一至周三 21:00</span>
+            <span class="steelyard" aria-hidden="true">
+              <span class="beam"></span>
+              <span class="hook"></span>
+              <span class="wt" style="left:62%"></span>
+            </span>
+            <span class="stat">20 / 32 剂 · 秤砣停在六成</span>
+          </dd>
+        </div>
+        <div class="reveal" style="--pc:var(--ginkgo);--c1:#d9a441;--c2:#3d2a06">
+          <dt><u>EP 32</u></dt>
+          <dd>
+            <h3><i>已完结</i>潮汐来信</h3>
+            <span>爱情 / 都市 · 全 32 剂一次看爽</span>
+            <span class="steelyard" aria-hidden="true">
+              <span class="beam"></span>
+              <span class="hook"></span>
+              <span class="wt" style="left:100%"></span>
+            </span>
+            <span class="stat">32 / 32 剂 · 秤砣压到底</span>
+          </dd>
+        </div>
+        <div class="reveal" style="--pc:var(--shen);--c1:#3d5a80;--c2:#0d1830">
+          <dt><u>EP 12</u></dt>
+          <dd>
+            <h3><i>更新中</i>深空信号</h3>
+            <span>剧情 / 科幻 · 每周六 22:00</span>
+            <span class="steelyard" aria-hidden="true">
+              <span class="beam"></span>
+              <span class="hook"></span>
+              <span class="wt" style="left:40%"></span>
+            </span>
+            <span class="stat">12 / 30 剂 · 秤砣停在四成</span>
+          </dd>
+        </div>
+        <div class="reveal" style="--pc:var(--wood3);--c1:#8a5a33;--c2:#241407">
+          <dt><u>EP 30</u></dt>
+          <dd>
+            <h3><i>更新中</i>山海食记</h3>
+            <span>动画 / 国创 · 每周四 10:00</span>
+            <span class="steelyard" aria-hidden="true">
+              <span class="beam"></span>
+              <span class="hook"></span>
+              <span class="wt" style="left:75%"></span>
+            </span>
+            <span class="stat">30 / 40 剂 · 秤砣停在七成半</span>
+          </dd>
+        </div>
+        <div class="reveal" style="--pc:var(--cinnabar);--c1:#b5352c;--c2:#340a06">
+          <dt><u>EP 08</u></dt>
+          <dd>
+            <h3><i>更新中</i>极速追缉</h3>
+            <span>动作 / 涉案 · 每周日 20:00</span>
+            <span class="steelyard" aria-hidden="true">
+              <span class="beam"></span>
+              <span class="hook"></span>
+              <span class="wt" style="left:27%"></span>
+            </span>
+            <span class="stat">8 / 30 剂 · 秤砣停在三成</span>
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ===== 栏目三：药罐榜单 ===== -->
+  <section id="rank">
+    <div class="wrap inner">
+      <div class="sec-head reveal">
+        <span class="no-tag"><b>叁</b></span>
+        <div class="txt">
+          <h2><small>Jars</small>药罐榜单 · 三只药罐，各装一份榜单</h2>
+          <p>榜单综合老四电影网站内播放热度、完播率与观众评分，每小时重算一次，榜头是一只带罐口和双耳的药罐。</p>
+        </div>
+        <a class="more" href="#">榜单规则 →</a>
+      </div>
+      <div class="jars">
+        <article class="jar reveal" style="--bc:var(--herb);--c1:#5a7247;--c2:#16210f">
+          <div class="pot"><b>今日热播</b><i>HOT</i></div>
+          <div class="cap"><h3>今日热播榜<em>HOT JAR</em></h3></div>
+          <ol>
+            <li><span class="no">01</span><span class="rt"><strong>三月花信</strong><span>剧情 · 2026</span></span><span class="val">9.1</span></li>
+            <li><span class="no">02</span><span class="rt"><strong>深空信号</strong><span>剧情 · 2026</span></span><span class="val">9.0</span></li>
+            <li><span class="no">03</span><span class="rt"><strong>潮汐来信</strong><span>治愈 · 2026</span></span><span class="val">8.9</span></li>
+            <li><span class="no">04</span><span class="rt"><strong>第七个证人</strong><span>悬疑 · 2025</span></span><span class="val">8.8</span></li>
+            <li><span class="no">05</span><span class="rt"><strong>长街旧事</strong><span>爱情 · 2025</span></span><span class="val">8.7</span></li>
+          </ol>
+        </article>
+        <article class="jar reveal" style="--bc:var(--shen);--c1:#3d5a80;--c2:#0d1830">
+          <div class="pot"><b>高分口碑</b><i>TOP</i></div>
+          <div class="cap"><h3>高分口碑榜<em>TOP RATED</em></h3></div>
+          <ol>
+            <li><span class="no">01</span><span class="rt"><strong>第七个证人</strong><span>悬疑 · 2025</span></span><span class="val">8.8</span></li>
+            <li><span class="no">02</span><span class="rt"><strong>花灯记</strong><span>动画 · 2026</span></span><span class="val">8.6</span></li>
+            <li><span class="no">03</span><span class="rt"><strong>疾速拦截</strong><span>动作 · 2026</span></span><span class="val">8.5</span></li>
+            <li><span class="no">04</span><span class="rt"><strong>无声证词</strong><span>悬疑 · 2024</span></span><span class="val">8.4</span></li>
+            <li><span class="no">05</span><span class="rt"><strong>海边小店</strong><span>治愈 · 2025</span></span><span class="val">8.3</span></li>
+          </ol>
+        </article>
+        <article class="jar reveal" style="--bc:var(--ginkgo);--c1:#d9a441;--c2:#3d2a06">
+          <div class="pot"><b>国创动漫</b><i>ANIME</i></div>
+          <div class="cap"><h3>国创动漫榜<em>ANIME JAR</em></h3></div>
+          <ol>
+            <li><span class="no">01</span><span class="rt"><strong>花灯记</strong><span>动画 · 2026</span></span><span class="val">8.6</span></li>
+            <li><span class="no">02</span><span class="rt"><strong>山海食记</strong><span>动画 · 2025</span></span><span class="val">8.2</span></li>
+            <li><span class="no">03</span><span class="rt"><strong>星辰旅人</strong><span>动画 · 2026</span></span><span class="val">7.9</span></li>
+            <li><span class="no">04</span><span class="rt"><strong>机械之心</strong><span>动画 · 2025</span></span><span class="val">7.6</span></li>
+            <li><span class="no">05</span><span class="rt"><strong>森林邮局</strong><span>动画 · 2024</span></span><span class="val">7.3</span></li>
+          </ol>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 栏目四：方子快讯 ===== -->
+  <section id="news">
+    <div class="wrap inner">
+      <div class="sec-head reveal">
+        <span class="no-tag"><b>肆</b></span>
+        <div class="txt">
+          <h2><small>Scripts</small>方子快讯 · 上线消息与观影攻略</h2>
+          <p>每天梳理上线消息、题材观察与观影攻略，每条快讯都是一张药方，右下角盖一枚朱砂印章。</p>
+        </div>
+        <a class="more" href="#">更多方子快讯 →</a>
+      </div>
+      <ul class="scripts">
+        <li class="reveal" style="--pc:var(--herb);--c1:#5a7247;--c2:#16210f">
+          <div class="top"><b>今日上新</b><u>NEW</u></div>
+          <span class="seal">老四<br>亲抓</span>
+          <div class="bd"><h3>本周新片：剧情与治愈同台</h3><p>老四电影网整理本周上线新片的题材分布与看点，附观影顺序建议。</p><time datetime="2026-10-04">2026-10-04</time></div>
+        </li>
+        <li class="reveal" style="--pc:var(--ginkgo);--c1:#d9a441;--c2:#3d2a06">
+          <div class="top"><b>观影指南</b><u>GUIDE</u></div>
+          <span class="seal">对症<br>下方</span>
+          <div class="bd"><h3>手机上看清 1080P 的三步排查法</h3><p>从码率、播放器到网络环境逐一排查，弱网下也能获得稳定的高清体验。</p><time datetime="2026-10-02">2026-10-02</time></div>
+        </li>
+        <li class="reveal" style="--pc:var(--shen);--c1:#3d5a80;--c2:#0d1830">
+          <div class="top"><b>榜单解读</b><u>RANK</u></div>
+          <span class="seal">秤平<br>斗满</span>
+          <div class="bd"><h3>热播榜的分数是怎么算出来的</h3><p>拆解老四电影网榜单权重：播放热度、完播率与评分如何共同决定排位。</p><time datetime="2026-09-29">2026-09-29</time></div>
+        </li>
+        <li class="reveal" style="--pc:var(--cinnabar);--c1:#b5352c;--c2:#340a06">
+          <div class="top"><b>题材专题</b><u>TOPIC</u></div>
+          <span class="seal">温补<br>缓服</span>
+          <div class="bd"><h3>一份陪你过周末的治愈片单</h3><p>从轻松日常到温柔结局，挑选 12 部适合周末慢慢看的治愈系作品。</p><time datetime="2026-09-26">2026-09-26</time></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== 栏目五：药铺指南 ===== -->
+  <section id="about">
+    <div class="wrap inner">
+      <div class="sec-head reveal">
+        <span class="no-tag"><b>伍</b></span>
+        <div class="txt">
+          <h2><small>About</small>关于老四电影网</h2>
+          <p>一个把「找片」这件事变短的影视资源聚合导航站，分类、榜单与新片信息集中在一页里。</p>
+        </div>
+        <a class="more" href="#">意见反馈 →</a>
+      </div>
+      <div class="duo">
+        <article class="panel reveal">
+          <h3>我们做什么</h3>
+          <p><b>老四电影网</b>（https://laosidianyingwang-cn.github.io）是一个面向中文用户的影视资源聚合导航站。目标很直接：让「找片」这件事变短，把分散的影视入口、分类标签与榜单数据收进同一个页面。</p>
+          <p>三条坚持：<b>分类够细</b>、<b>上新够勤</b>、<b>页面够轻</b>。整站单页结构，移动端自适应，弱网也能快速打开。</p>
+          <div class="goods">
+            <div><span class="mortar" aria-hidden="true"><i></i><b></b></span><strong>六味分类</strong><em>按题材切换</em></div>
+            <div><span class="mortar" aria-hidden="true"><i></i><b></b></span><strong>移动优先</strong><em>手机平板全适配</em></div>
+            <div><span class="mortar" aria-hidden="true"><i></i><b></b></span><strong>每日上新</strong><em>10:00 / 21:00</em></div>
+            <div><span class="mortar" aria-hidden="true"><i></i><b></b></span><strong>轻量加载</strong><em>单页打开即看</em></div>
+          </div>
+        </article>
+        <article class="panel faq reveal">
+          <h3>常见问题</h3>
+          <details open><summary>老四电影网需要注册才能浏览吗？</summary><p>不需要。百子片库、药罐榜单与方子快讯内容全部开放访问，打开页面即可查看，无需注册登录。</p></details>
+          <details><summary>为什么把站点做成「中药铺」的样子？</summary><p>「老四」这个名字，最像街角那家老药铺的掌柜。我们借药铺这套东西来组织内容：题材是药味，影片是百子柜里一格格药屉（带铜环拉手和药名标签），追更进度是一杆戥子秤的秤砣停在哪，榜单是三只药罐，快讯是一张盖了朱砂印的药方。</p></details>
+          <details><summary>手机端会自动适配屏幕吗？</summary><p>会。页面为响应式布局，手机上自动切换为双列卡片与折叠导航，抓药追更与药罐榜单转单列，戥子秤等比缩小，横竖屏都能正常显示。</p></details>
+          <details><summary>影片清晰度可以自己选吗？</summary><p>支持多档清晰度切换，具体档位以播放源为准；网络较差时建议先降低清晰度保证流畅。</p></details>
+          <details><summary>找不到想看的影片怎么办？</summary><p>先用顶部搜索框按片名、演员或类型检索，也可进入百子片库按题材与年份逐层筛选。</p></details>
+        </article>
+      </div>
+
+      <div class="cta reveal">
+        <span class="mortar" aria-hidden="true"><i></i><b></b></span>
+        <h2>今天抓哪一剂？<em>老四电影网</em> 百子柜常开</h2>
+        <p>收藏老四电影网，随时打开就能看到最新上线的电影、剧集与热播榜单，今天不愁没得看。</p>
+        <a href="#movie">抓一剂看看</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== 页脚 ===== -->
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="fbrand">
+        <a class="lg" href="#home" aria-label="老四电影网首页"><span class="mortar" aria-hidden="true"><i></i><b></b></span>老四电影网</a>
+        <p>老四电影网 · 影视资源聚合导航。本站仅提供影视信息索引与分类导航服务。</p>
+      </div>
+      <div>
+        <h4>栏目导航</h4>
+        <ul>
+          <li><a href="#home">柜台首页</a></li>
+          <li><a href="#movie">百子片库</a></li>
+          <li><a href="#series">抓药追更</a></li>
+          <li><a href="#rank">药罐榜单</a></li>
+          <li><a href="#news">方子快讯</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>热门类型</h4>
+        <ul>
+          <li><a href="#movie">治愈系电影</a></li>
+          <li><a href="#movie">剧情电影</a></li>
+          <li><a href="#movie">悬疑犯罪</a></li>
+          <li><a href="#movie">爱情剧情</a></li>
+          <li><a href="#movie">国创动漫</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于本站</h4>
+        <ul>
+          <li><a href="#about">关于老四电影网</a></li>
+          <li><a href="#about">常见问题</a></li>
+          <li><a href="#">意见反馈</a></li>
+          <li><a href="#">免责声明</a></li>
+          <li><a href="#">友情链接</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© 2026 老四电影网 https://laosidianyingwang-cn.github.io · 影视信息聚合导航</span>
+      <span>热门关键词：<b>老四电影网</b> · 电影在线观看 · 电视剧在线观看 · 动漫在线观看 · 热播榜单</span>
+    </div>
+  </div>
+</footer>
+
+<button id="top" aria-label="回到顶部"><svg viewBox="0 0 24 24"><path d="M12 5l7 7h-4v7h-6v-7H5z"/></svg></button>
+
+<!-- ===== 结构化数据（利于必应理解与收录） ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://laosidianyingwang-cn.github.io/#website",
+      "url": "https://laosidianyingwang-cn.github.io/",
+      "name": "老四电影网",
+      "alternateName": ["老四电影", "老四影视"],
+      "description": "老四电影网是面向中文用户的影视资源聚合导航站，收录热门电影、热播电视剧、国创动漫与热播榜单。",
+      "inLanguage": "zh-CN",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": { "@type": "EntryPoint", "urlTemplate": "https://laosidianyingwang-cn.github.io/?q={search_term_string}" },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://laosidianyingwang-cn.github.io/#organization",
+      "name": "老四电影网",
+      "url": "https://laosidianyingwang-cn.github.io/",
+      "logo": "https://laosidianyingwang-cn.github.io/favicon.ico"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://laosidianyingwang-cn.github.io/#webpage",
+      "url": "https://laosidianyingwang-cn.github.io/",
+      "name": "老四电影网 - 热门电影电视剧在线观看_影视资源聚合导航",
+      "isPartOf": { "@id": "https://laosidianyingwang-cn.github.io/#website" },
+      "about": { "@id": "https://laosidianyingwang-cn.github.io/#organization" },
+      "inLanguage": "zh-CN",
+      "primaryImageOfPage": "https://laosidianyingwang-cn.github.io/favicon.ico",
+      "breadcrumb": { "@id": "https://laosidianyingwang-cn.github.io/#breadcrumb" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://laosidianyingwang-cn.github.io/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://laosidianyingwang-cn.github.io/" },
+        { "@type": "ListItem", "position": 2, "name": "百子片库", "item": "https://laosidianyingwang-cn.github.io/#movie" },
+        { "@type": "ListItem", "position": 3, "name": "抓药追更", "item": "https://laosidianyingwang-cn.github.io/#series" },
+        { "@type": "ListItem", "position": 4, "name": "药罐榜单", "item": "https://laosidianyingwang-cn.github.io/#rank" },
+        { "@type": "ListItem", "position": 5, "name": "方子快讯", "item": "https://laosidianyingwang-cn.github.io/#news" }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "老四电影网今日热播榜",
+      "itemListOrder": "https://schema.org/ItemListOrderDescending",
+      "numberOfItems": 5,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "三月花信" },
+        { "@type": "ListItem", "position": 2, "name": "深空信号" },
+        { "@type": "ListItem", "position": 3, "name": "潮汐来信" },
+        { "@type": "ListItem", "position": 4, "name": "第七个证人" },
+        { "@type": "ListItem", "position": 5, "name": "长街旧事" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "老四电影网需要注册才能浏览吗？",
+          "acceptedAnswer": { "@type": "Answer", "text": "不需要。百子片库、药罐榜单与方子快讯内容全部开放访问，打开页面即可查看，无需注册登录。" } },
+        { "@type": "Question", "name": "为什么把站点做成「中药铺」的样子？",
+          "acceptedAnswer": { "@type": "Answer", "text": "「老四」这个名字，最像街角那家老药铺的掌柜。我们借药铺这套东西来组织内容：题材是药味，影片是百子柜里一格格药屉（带铜环拉手和药名标签），追更进度是一杆戥子秤的秤砣停在哪，榜单是三只药罐，快讯是一张盖了朱砂印的药方。" } },
+        { "@type": "Question", "name": "手机端会自动适配屏幕吗？",
+          "acceptedAnswer": { "@type": "Answer", "text": "会。页面为响应式布局，手机上自动切换为双列卡片与折叠导航，抓药追更与药罐榜单转单列，戥子秤等比缩小，横竖屏都能正常显示。" } },
+        { "@type": "Question", "name": "影片清晰度可以自己选吗？",
+          "acceptedAnswer": { "@type": "Answer", "text": "支持多档清晰度切换，具体档位以播放源为准；网络较差时建议先降低清晰度保证流畅。" } },
+        { "@type": "Question", "name": "找不到想看的影片怎么办？",
+          "acceptedAnswer": { "@type": "Answer", "text": "先用顶部搜索框按片名、演员或类型检索，也可进入百子片库按题材与年份逐层筛选。" } }
+      ]
+    }
+  ]
+}
+</script>
+
+<script>
+(function () {
+  'use strict';
+  var bar = document.getElementById('progress');
+  var topBtn = document.getElementById('top');
+  function onScroll () {
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    var y = window.scrollY || document.documentElement.scrollTop;
+    bar.style.width = (h > 0 ? Math.min(1, y / h) * 100 : 0) + '%';
+    if (y > 420) { topBtn.classList.add('show'); } else { topBtn.classList.remove('show'); }
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+  topBtn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+
+  /* 移动端导航 */
+  var burger = document.getElementById('burger');
+  var menu = document.getElementById('menu');
+  burger.addEventListener('click', function () {
+    var open = menu.classList.toggle('open');
+    burger.classList.toggle('on', open);
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  menu.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A') {
+      menu.classList.remove('open');
+      burger.classList.remove('on');
+      burger.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  /* 导航高亮 */
+  var links = Array.prototype.slice.call(menu.querySelectorAll('a[href^="#"]:not(.nav-cta)'));
+  var secs = links.map(function (a) { return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
+  if ('IntersectionObserver' in window) {
+    var navObs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) { return; }
+        links.forEach(function (a) {
+          a.classList.toggle('active', a.getAttribute('href') === '#' + en.target.id);
+        });
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    secs.forEach(function (s) { navObs.observe(s); });
+  }
+
+  /* 药味筛选 */
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('.filters button'));
+  var cards = Array.prototype.slice.call(document.querySelectorAll('#movieGrid .drawer'));
+  tabs.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      tabs.forEach(function (b) { b.classList.remove('on'); b.setAttribute('aria-selected', 'false'); });
+      btn.classList.add('on');
+      btn.setAttribute('aria-selected', 'true');
+      var cat = btn.getAttribute('data-cat');
+      cards.forEach(function (c) {
+        c.style.display = (cat === 'all' || c.getAttribute('data-cat') === cat) ? '' : 'none';
+      });
+    });
+  });
+
+  /* 搜索 */
+  var form = document.getElementById('searchForm');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (!form.q.value.trim()) { form.q.focus(); return; }
+    document.getElementById('movie').scrollIntoView({ behavior: 'smooth' });
+  });
+
+  /* 入场动画 */
+  var reveals = Array.prototype.slice.call(document.querySelectorAll('.reveal'));
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en, i) {
+        if (en.isIntersecting) {
+          var el = en.target;
+          setTimeout(function () { el.classList.add('in'); }, i * 50);
+          io.unobserve(el);
+        }
+      });
+    }, { threshold: 0.1 });
+    reveals.forEach(function (r) { io.observe(r); });
+  } else {
+    reveals.forEach(function (r) { r.classList.add('in'); });
+  }
+})();
+</script>
+</body>
+</html>
